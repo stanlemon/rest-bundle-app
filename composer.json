@@ -5,11 +5,12 @@
         "php": "^7.0.8",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "symfony/console": "3.4.*",
-        "symfony/dotenv": "3.4.*",
+        "stanlemon/rest-bundle": "dev-master",
+        "symfony/console": "v3.4.42",
+        "symfony/dotenv": "v3.4.42",
         "symfony/flex": "^1.3.1",
-        "symfony/framework-bundle": "3.4.*",
-        "symfony/yaml": "3.4.*"
+        "symfony/framework-bundle": "v3.4.42",
+        "symfony/yaml": "v3.4.42"
     },
     "require-dev": {
     },
@@ -49,7 +50,7 @@
         ]
     },
     "conflict": {
-        "symfony/symfony": "*"
+        "symfony/symfony": "v3.4.42"
     },
     "extra": {
         "symfony": {
